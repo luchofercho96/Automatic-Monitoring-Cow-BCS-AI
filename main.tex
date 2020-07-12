@@ -1,0 +1,38 @@
+%Autores: Prof. Me. Phyllipe Lima
+%         Daylon Ramos da Silva
+%Contato: phyllipe@inatel.br 
+%         biblioteca.pesquisa@inatel.br
+%Modelo para escrita de artigos científicos para o curso de Pós-Graduação em Desenvolvimento de Aplicações para Dispositivos Móveis e Cloud Computing do INATEL - Instituto Nacional de Telecomunicações. 
+%Este template LaTeX é uma adaptação do modelo doc desenvolvido pelos professores Carlos Ynoguti e Dayan Guimarães
+
+%Se você é novo no latex, um bom lugar para começar é
+%https://pt.overleaf.com/learn
+\documentclass[10pt,twocolumn]{article} 
+\input{configuracoes/includes.tex}
+\input{configuracoes/config.tex}
+
+\AtBeginBibliography{\small}
+\AtBeginDocument{\pagestyle{empty}}
+
+%Inicio do documento
+\begin{document}
+
+\title{\Huge \bf Monitoreo Automático de índice condición corporal en bovinos usando cámara de profundidad espacial con inteligencia artificial con el fin de incrementar el nivel de tecnificación en los pequeños productores.}
+
+\author{\large 
+Darío Mendoza\textsuperscript{\contAutor}, Fernando Recalde\textsuperscript{\contAutor}, Marcelo Ortiz\textsuperscript{\contAutor}, Christopher Obando\textsuperscript{\contAutor}}
+
+\maketitle
+\thispagestyle{first}
+%\noindent\blfootnote{Trabalho de Conclusão de Curso apresentado ao  %Prof. (XXXXX). Trabalho aprovado em XX/20XX.}
+
+\setlength{\tabcolsep}{5pt}
+
+\input{secciones/02-introducao.tex}
+\input{secciones/03-instrucoes-gerais.tex}
+\input{secciones/04-conclusao.tex}
+
+\printbibliography
+
+\input{secciones/05-biografia.tex}
+\end{document}
